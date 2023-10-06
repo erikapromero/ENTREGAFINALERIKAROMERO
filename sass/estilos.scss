@@ -34,13 +34,29 @@ color: #000000;
     width:0px;
 }
 
+.text-center img {
+    filter: grayscale(100);
+    transition: all .3s;
+    border-radius: 10px;
+}
 
+.text-center img:hover {
+    filter: grayscale(0);
+}
 
 .piedeimagen p { text-align: center;
 }
 
 .piedeimagen hr { position: relative; margin-left: 10%;
 }
+
+.btn-primary { background-color:#EDEDED ; border-color: inherit
+}
+
+.btn-primary :hover { background-color:#00D8DD ; border-color: #00D8DD;
+}
+
+
 
 .seccion2 {
     background-color:  #EDEDED; display: block; ;
