@@ -28,125 +28,164 @@
   src: url(../fonts/Manrope-Light);
 }
 
-/* line 37, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 36, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+.container {
+  max-width: 1920px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* line 40, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 h1 {
   color: #000000;
   font-size: 55px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat-ExtraBold, sans-serif;
 }
 
-/* line 40, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 43, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 h2 {
   font-family: Montserrat-Light,sans-serif;
 }
 
-/* line 45, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
-.carafeliz {
-  color: #00D8DD;
+/* line 47, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+h3 {
+  font-family: Manrope-Regular, sans-serif;
+  font-size: 14pt;
 }
 
-/* line 50, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 51, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+a {
+  font-family: Manrope-ExtraBold, sans-serif;
+  color: #00D8DD;
+  text-decoration: none;
+}
+
+/* line 55, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+a:hover {
+  color: #F8D710;
+}
+
+/* line 59, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link {
   color: #000000;
   font-family: Montserrat-light, sans-serif;
 }
 
-/* line 53, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 62, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link:hover {
   background-color: #00D8DD;
   color: #000000;
 }
 
-/* line 58, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 67, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .navbar-collapse {
   flex-grow: inherit;
 }
 
-/* line 61, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 70, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .active {
   background-color: #F8D710;
   font-family: Montserrat-ExtraBold, sans-serif;
 }
 
-/* line 66, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 75, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .navbar-collapse {
   flex-wrap: 0;
 }
 
-/* line 70, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 79, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+main {
+  margin-top: 300px;
+}
+
+/* line 82, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .frase h2 {
   margin-top: 200px;
   margin-bottom: 50px;
 }
 
-/* line 73, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 85, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .frase h3 {
-  margin-bottom: 250px;
+  margin-bottom: 300px;
   text-align: right;
   font-family: Manrope-Regular, sans-serif;
   font-size: 18px;
 }
 
-/* line 76, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 88, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .container .container-fluid .container-lg .container-md .container-sm .container-xl .container-xxl {
   width: 0px;
 }
 
-/* line 80, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 92, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .piedeimagen p {
   color: #00D8DD;
   font-family: Manrope-ExtraBold, sans-serif;
+  letter-spacing: 3px;
 }
 
-/* line 84, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 98, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .sobremi {
   color: #EDEDED;
+  font-family: Montserrat-ExtraBold, sans-serif;
+  font-size: 120px;
 }
 
-/* line 88, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 101, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+.row {
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+/* line 104, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+.columna1 {
+  padding-top: 80px;
+  justify-content: space-between;
+}
+
+/* line 106, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+.columna1 h3 {
+  text-align: justify;
+}
+
+/* line 109, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .text-center img {
   filter: grayscale(100);
   transition: all .3s;
   border-radius: 10px;
 }
 
-/* line 94, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 115, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .text-center img:hover {
   filter: grayscale(0);
 }
 
-/* line 98, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 119, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .piedeimagen p {
   text-align: center;
 }
 
-/* line 101, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 122, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .piedeimagen hr {
   position: relative;
   margin-left: 10%;
 }
 
-/* line 104, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 125, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .btn-primary {
   background-color: #EDEDED;
   border-color: inherit;
 }
 
-/* line 107, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 128, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .btn-primary :hover {
   background-color: #00D8DD;
   border-color: #00D8DD;
 }
 
-/* line 112, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
-.seccion2 {
-  background-color: #EDEDED;
-  display: block;
-}
-
-/* line 116, ../../../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 132, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 footer {
-  background-color: #ffffff;
+  background-color: #EDEDED;
 }
 
 /*# sourceMappingURL=estilos.css.map */
