@@ -33,12 +33,12 @@
     src: url(../fonts/Manrope-Light);
 }
 
-.container { max-width: 1920px; padding-left:5%; padding-right: 5%;
+.container { max-width: 1920px; padding-left:2%; padding-right: 2%;
     
 }
 
 h1 {
-    color: #000000; font-size:85px; font-family: Montserrat-ExtraBold, sans-serif;
+    color: #000000; font-size:55px; font-family: Montserrat-ExtraBold, sans-serif;
 }
 h2{
     font-family: Montserrat-Light,sans-serif;
@@ -56,8 +56,11 @@ a:hover {
     color:#F8D710;
 }
 
+.navbar {
+    padding-top: 0%; padding-bottom: 0%;
+}
 .navbar-light .navbar-nav .nav-link {
-color: #000000; font-family: Montserrat-light, sans-serif;
+color: #000000; font-family: Montserrat-light, sans-serif; 
 }
 .navbar-light .navbar-nav .nav-link:hover {
     background-color: #00D8DD;
@@ -76,7 +79,10 @@ color: #000000; font-family: Montserrat-light, sans-serif;
     flex-wrap: 0;
 }
 
-main { margin-top: 300px;
+main { margin-top: 380px;
+}
+
+.encabezado .texto { margin-top: 0; margin-bottom: 50px; 
 }
 
 .frase h2  { margin-top: 200px; margin-bottom: 50px;
@@ -92,7 +98,8 @@ main { margin-top: 300px;
 .piedeimagen p {
     color:#00D8DD; font-family: Manrope-ExtraBold, sans-serif; letter-spacing: 3px;
 }
-.piedeimagen hr {  
+
+hr {  
 }
 
  .sobremi { margin-top: 100px;
@@ -107,8 +114,12 @@ main { margin-top: 300px;
 
 .columna1 h3 { text-align: justify
 }
+.img-fluid {
+    max-width: 100%;
+    height:inherit;
+}
 
-.img-fluid #erika {  max-width: 100%;
+.img-fluid #erika {  flex-shrink:0 ;
 }
 
 div .row { --bs-gutter-x:none ;
@@ -135,9 +146,12 @@ div .row { --bs-gutter-x:none ;
     filter: grayscale(0);
 }
 
+.encabezado {  margin-top: 0; ;  
+}
 .piedeimagen p { text-align: center;
 }
-
+.fondo { max-width: 1920px;
+}
 .piedeimagen hr { position: relative; margin-left: 10%;
 }
 
