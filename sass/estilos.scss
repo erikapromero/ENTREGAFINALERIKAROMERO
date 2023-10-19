@@ -38,7 +38,7 @@
 }
 
 h1 {
-    color: #000000; font-size:55px; font-family: Montserrat-ExtraBold, sans-serif;
+    color: #000000; font-size:85px; font-family: Montserrat-ExtraBold, sans-serif;
 }
 h2{
     font-family: Montserrat-Light,sans-serif;
@@ -95,16 +95,35 @@ main { margin-top: 300px;
 .piedeimagen hr {  
 }
 
-.sobremi  { color: #EDEDED; font-family: Montserrat-ExtraBold, sans-serif ; font-size: 120px;
+ .sobremi { margin-top: 100px;
 }
 
-.row { justify-content: space-between; padding-top: 20px;
+
+
+.row { justify-content: space-between; padding-top: 20px; flex-grow: inherit;
 }
 
 .columna1 { padding-top: 80px; justify-content: space-between;}
 
 .columna1 h3 { text-align: justify
 }
+
+.img-fluid #erika {  max-width: 100%;
+}
+
+div .row { --bs-gutter-x:none ;
+}
+
+.col img { margin:5px ; flex-grow: 0; flex-shrink: 0; margin-top: 50px;
+    filter: grayscale(100);
+    transition: all .3s;
+    border-radius: 10px;
+}
+
+.col img:hover {
+    filter: grayscale(0);
+}
+
 
 .text-center img {
     filter: grayscale(100);
