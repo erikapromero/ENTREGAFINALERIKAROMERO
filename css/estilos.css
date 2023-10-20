@@ -181,62 +181,75 @@ div .row {
   flex-grow: 0;
   flex-shrink: 0;
   margin-top: 50px;
-  filter: grayscale(100);
+  filter: grayscale(100) blur(0px);
   transition: all .3s;
   border-radius: 10px;
 }
 
-/* line 134, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 135, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .col img:hover {
   filter: grayscale(0);
+  transform: scale(1.1);
+  z-index: 2;
+  cursor: pointer;
 }
 
-/* line 139, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 143, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .text-center img {
-  filter: grayscale(100);
+  filter: grayscale(100) blur(1px);
   transition: all .3s;
   border-radius: 10px;
 }
 
-/* line 145, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 150, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .text-center img:hover {
   filter: grayscale(0);
+  transform: scale(1.1);
+  z-index: 2;
+  cursor: pointer;
 }
 
-/* line 149, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 158, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+.text-center {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+/* line 162, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .encabezado {
   margin-top: 0;
 }
 
-/* line 151, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 165, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .piedeimagen p {
   text-align: center;
 }
 
-/* line 153, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 167, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .fondo {
   max-width: 1920px;
 }
 
-/* line 155, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 169, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .piedeimagen hr {
   position: relative;
   margin-left: 10%;
+  margin-right: 10%;
 }
 
-/* line 158, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 172, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .btn-primary {
   background-color: #EDEDED;
   border-color: inherit;
 }
 
-/* line 161, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 175, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 .btn-primary :hover {
   background-color: #00D8DD;
   border-color: #00D8DD;
 }
 
-/* line 165, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
+/* line 179, ../../../OneDrive/Escritorio/mi pagina web1/sass/estilos.scss */
 footer {
   background-color: #EDEDED;
 }
